@@ -229,4 +229,4 @@ const agrupados = agruparPorCategoria(produtos);
 Object.entries(agrupados).forEach(([categoria, prods]) => {
   console.log(`\n${categoria.toUpperCase()} (${prods.length} produtos):`);
   prods.forEach(p => console.log(`  - ${p.nome}`));
-});
+})
